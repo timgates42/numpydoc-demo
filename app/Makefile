@@ -6,5 +6,10 @@ help:
 
 .PHONY: _build
 _build: ## Prepare Docker Image
-	true
+	conda install sphinx
+
+.PHONY: _main
+_main: ## Main test case
+	find .
+	make -C doc help
 
