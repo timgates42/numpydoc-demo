@@ -1,0 +1,7 @@
+---
+version: '3.0'
+services:
+  # Service image
+  numpydoc-demo:
+    image: numpydoc-demo:latest
+    build: app

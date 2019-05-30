@@ -14,4 +14,4 @@ if ! which docker-compose ; then
     echo 'Docker-Compose is missing!' >&2
     exit 1
 fi
-true
+make build
