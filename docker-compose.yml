@@ -1,9 +1,11 @@
 ---
-version: '3.0'
+version: '3.7'
 services:
   # Service image
   numpydoc-demo:
     image: numpydoc-demo:latest
     build: app
     volumes:
-      - ./output:/app/build/html
+      - type: bind
+        source: ./output
+        target: /app/doc/build/html

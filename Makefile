@@ -8,4 +8,5 @@ help:
 build: ## Build the Docker Images
 	docker-compose build
 	docker-compose up -d
+	docker-compose run numpydoc-demo make _main
 	docker-compose down

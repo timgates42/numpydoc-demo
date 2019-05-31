@@ -6,4 +6,3 @@ RUN apt-get update \
   && make _build
 COPY . /app
 WORKDIR /app
-RUN make _main

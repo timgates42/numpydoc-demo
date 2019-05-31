@@ -11,4 +11,3 @@ _build: ## Prepare Docker Image
 .PHONY: _main
 _main: ## Main test case
 	make -C doc html
-
