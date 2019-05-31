@@ -5,3 +5,5 @@ services:
   numpydoc-demo:
     image: numpydoc-demo:latest
     build: app
+    volumes:
+      - ./output:/app/build/html
