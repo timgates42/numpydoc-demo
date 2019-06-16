@@ -15,4 +15,4 @@ if ! which docker-compose ; then
     exit 1
 fi
 make build
-echo 'Complete'
+echo 'Completed'
